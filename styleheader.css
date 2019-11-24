@@ -1,0 +1,46 @@
+h1{
+	margin: 0;
+	padding: 0;
+	
+	font-family: arial;
+	/*background-color: white;*/
+
+}
+body{
+		background: linear-gradient(black,grey);
+		/*height: 750px;*/
+		/*background-size: cover;*/
+			background-repeat: no-repeat;
+	}
+.text h1{
+	font-size: 188px;
+	color: rgba(225,225,225,.1);
+   /* background-image: url(color1.jpg);*/
+    background-repeat: repeat-x;
+    -webkit-background-clip:text;
+    animation: animate 40s linear infinite;
+    
+   }
+@keyframes animate{
+	0%{
+		background-position: left 0px top 10px;
+
+	}
+	100%
+	{
+		background-position: left 800px top 10px;
+	}
+}
+.text {
+	margin-top: -1.5%;
+	background-color: black;
+	margin-left: 0%;
+}
+
+.logo{
+	width: 20.2%;
+	height: 225px;
+	background-color: transparent;
+	margin-top: -16.7%;
+    border-right: 2px solid white;
+}

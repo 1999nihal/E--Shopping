@@ -1,0 +1,16 @@
+.footer{
+	width: 100%;
+	height: 45px;
+	/*position: fixed;*/
+	background-color:black;
+	margin-top: -3.35%;
+	padding-left:23%; 
+	padding-top:1%; 
+	opacity: 0.8;
+}
+
+.footertext{
+	/*color: grey;*/
+	font-size: 14px;
+
+}

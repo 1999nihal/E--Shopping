@@ -1,0 +1,146 @@
+
+.fa-times{
+	right: 10px;
+	padding-top: 50%;
+	opacity: 0.7;
+	cursor: pointer;
+	position: absolute;
+	color: white;
+	transition: all 0.2s ease-in-out;
+}
+
+.fa-times:hover{
+	opacity: 1;
+	text-shadow: 2px 2px 12px grey;	
+}
+
+.sidebar_menu{
+	position: fixed;
+	width: 250px;
+	margin-left: 0px;
+	margin-top: -29.39%;
+	overflow: hidden;
+	height: 35vh;
+	max-height: 65vh;
+	background-color: rgba(17,17,17,0.8);
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	border-radius: 5px;
+}
+
+.hide_menu{
+	margin-left: -250px;
+	transition: all 0.3s ease-in-out;
+}
+
+.toggle_menu{
+	position: fixed;
+	/*padding: 10px 15px 10px 10px;*/
+	padding-top:7.5%;
+	margin-top: -7%;
+	margin-left: -22.35%;
+	color: white;
+	height: 35vh;
+	cursor: pointer;
+	background-color: #648B79;
+	opacity: 0.6;
+	z-index: 10000;
+	font-size: 2em; 
+	transition: all 0.2s ease-in-out;
+	border-radius: 5px;
+}
+
+.opacity_one{
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+}
+
+.toggle_menu:hover{
+	background-color: #FE4365;
+	transition: all 0.2s ease-in-out;
+}
+
+.boxed_item{
+	font-family: 'Open Sans';
+	font-weight: 200;
+	padding: 10px 20px;
+	display: inline-block;
+	border: solid 2px white;
+	box-sizing: border-box;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.logo_bold{
+	font-weight: 800;
+}
+
+.logo_title{
+	color: white;
+	font-family: 'Open Sans';
+	font-weight: 200;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.menu_close{
+	color: #D8D8D8;
+	position: absolute;
+	right: 8px;
+	opacity: 0.7;
+	top: 6px;
+	font-size: 1.1em;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.menu_close:hover{
+	color: #FE4365;
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+}
+
+.navigation_section{
+	margin: 20px 0;
+	display: block;
+	width: 200px;
+	margin-left: 25px;
+}
+
+.navigation_item{
+	font-weight: 200;
+	font-family: 'Open Sans';
+	color: white;
+	padding: 12px 0px;
+	box-sizing: border-box; 
+	font-size: 14px;
+	color: #D8D8D8;
+	border-bottom: solid 1px #D8D8D8;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.navigation_item:hover{
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.boxed_item_smaller{
+	font-size: 12px;
+	color: #D8D8D8;
+	width: 200px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	border-width: 1px;
+	margin: 0 0 20px 0;
+}
+
+.boxed_item_smaller:hover{
+	background-color: white;
+	color: #111;
+	transition: all 0.3s ease-in-out;
+}

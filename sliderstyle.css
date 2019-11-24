@@ -1,0 +1,149 @@
+body{
+	/*background: black;*/
+	margin: 0;
+	padding: 0;
+}
+
+#front{
+	width: 340px;
+	height: 340px;
+	position: relative;
+	top: -105px;
+	left: 40%;
+	border-radius: 5px;
+
+}
+
+#right{
+	width: 332px;
+	height: 332px;
+	position: absolute;
+	top: 359px;
+	left: 61.5%;
+	animation: right 1s ease;
+	opacity: 1;
+	transform: scale(.8);
+}
+
+#left{
+	width: 332px;
+	height: 332px;
+	position: absolute;
+	top: 359px;
+	left: 19%;
+	animation: left 1s ease;
+	opacity: 1;
+	transform: scale(.8);
+}
+
+#right1{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 375px;
+	left: 79.5%;
+	animation: right1 1s 1s,op 1s;
+	opacity: 1;
+	transform: scale(.75);
+}
+
+#left1{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 375px;
+	left: 3.1%;
+	animation: left1 1s 1s ease,op 1s;
+	opacity: 1;
+	transform: scale(.75);
+}
+
+
+@keyframes left1{
+	0%{ 
+		top: 375px;
+		left: 40%;
+		width: 300px;
+		height: 300px;
+		opacity: 0;
+		transform: scale(1);
+	}
+	100%{
+          top: 375px;
+          left: 3.1%;
+          width: 300px;
+          height: 300px;
+          transform: scale(.75);
+          opacity: 1;
+	}
+}
+
+@keyframes op{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+@keyframes right1{
+	0%{ 
+		top: 375px;
+		left: 40%;
+		width: 300px;
+		height: 300px;
+		opacity: 0;
+		transform: scale(1);
+	}
+	100%{
+          position: fixed;
+          top: 375px;
+          left: 79.5%;
+          width: 300px;
+          height: 300px;
+          transform: scale(.75);
+          opacity: 1;
+	}
+}
+
+
+@keyframes left{
+	0%{ 
+		top: 359px;
+		left: 30%;
+		width: 332px;
+		height: 332px;
+		opacity: 0;
+		transform: scale(1);
+	}
+	100%{
+          position: fixed;
+          top: 359px;
+          left: 19%;
+          width: 332px;
+          height: 332px;
+          transform: scale(.8);
+          opacity: 1;
+	}
+}
+
+@keyframes right{
+	0%{ 
+		top: 359px;
+		left: 40%;
+		width: 332px;
+		height: 332px;
+		opacity: 0;
+		transform: scale(1);
+	}
+	100%{
+          position: fixed;
+          top: 359px;
+          left: 61.5%;
+          width: 332px;
+          height: 332px;
+          transform: scale(.8);
+          opacity: 1;
+	}
+}
